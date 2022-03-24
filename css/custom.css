@@ -8,3 +8,48 @@
 	width: 100%;
 	height: 100px;
 }
+
+.introduce-bg2{
+	background-color: #F6F6F6;
+	padding: 60px;
+}
+
+.mtb-30{
+	margin: 30px;
+}
+
+.menuTB{
+	width: 70%;
+}
+
+.W-80{
+	width: 80%;
+}
+
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) { {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) { {
+  html {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) { {
+  html {
+    font-size: 32px;
+  }
+}*/
