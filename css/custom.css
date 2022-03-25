@@ -25,6 +25,9 @@
 .W-80{
 	width: 80%;
 }
+.select-h50{
+	height: 50px !important;
+}
 
 /*html {
   font-size: 14px;
