@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 .introduce-bg1{
 	background-image: url("../images/introduce-bg1.jpg");
 	background-size: cover;
@@ -27,6 +30,18 @@
 }
 .select-h50{
 	height: 50px !important;
+}
+
+.content{
+	display: none;
+}
+
+.progress{
+	width: 500px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
 }
 
 /*html {
