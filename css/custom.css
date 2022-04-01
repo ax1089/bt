@@ -1,5 +1,9 @@
-body {
-  position: relative;
+@import  'http://fonts.googleapis.com/earlyaccess/notosanstc.css';
+
+body{
+	position: relative;
+	font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 100;
 }
 .introduce-bg1{
 	background-image: url("../images/introduce-bg1.jpg");
@@ -7,10 +11,20 @@ body {
 	width: 100%;
 }
 .dark{
-	background-color: #808080;
+	background-color: #D1D1D1;
 	width: 100%;
-	height: 100px;
+	color: #FFFFFF;
 }
+.dark .row{
+	height: 300px;
+}
+
+
+.dark .blockquote-footer{
+	margin-top: 30px;
+	color: #047268;
+}
+
 
 .introduce-bg2{
 	background-color: #F6F6F6;
@@ -18,12 +32,21 @@ body {
 }
 
 .mtb-30{
-	margin: 30px;
+	margin: 120px 0 30px 0;
+}
+
+.mtb-35{
+	margin-bottom: 35px;
 }
 
 .menuTB{
 	width: 70%;
 }
+
+.menuTB tr{
+	white-space: nowrap;
+}
+
 
 .W-80{
 	width: 80%;
@@ -43,6 +66,122 @@ body {
 	left: 50%;
 	margin-left: -250px;
 }
+
+#navspy{
+	background-color: #0B2626;
+}
+
+#navspy a{
+	color: #FFFFFF;
+}
+
+@media(max-width: 992px){
+		#navspy a.navbar-brand{
+			width: 75%;
+	 }
+	 #navspy a.nav-link{
+	 	background-color: transparent;
+	 }
+}
+
+#navspy button{
+	background-color: #459CBD;
+}
+
+
+
+.banner-block{
+	position: absolute;
+	top: 40%;
+	left: -40%;
+}
+.banner-block h1{
+	font-size: 5rem;
+}
+
+#about h1{
+	color: #C2C2C2;
+}
+
+#about .text-p{
+	color: #858585;
+	margin-top: 80px;
+}
+.food-bg{
+	background-image: url("../images/food-bg.png");
+	background-repeat: no-repeat;
+}
+
+.block-title{
+	padding: 10px;\
+	font-size: 15px;
+	font-weight:300;
+	color: #006A73;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	font-size: 24px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.menu-row-bg{
+	background-color: #E3E3E3;
+	padding: 100px 0;
+}
+
+.menuTB th,.menuTB td{
+	vertical-align: middle;
+	text-align: center;
+	border: 0 none;
+}
+
+.list-bg{
+	background-color: #F5F5F5;
+}
+
+@media (min-width: 1023px) {
+	.list-bg{
+		padding: 100px;
+	}
+}
+
+.list-content-bg{
+	background-color: #E4E4E4;
+	padding: 100px;
+}
+.content-form{
+	background-color: #E0E0E0;
+	padding: 50px;
+}
+
+.page-footer{
+	background-color: #C3C3C3;
+	color: #FFFFFF;
+	padding: 30px;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 20px;
+	right: 5px;
+	display: none;
+	background-image: url(../images/gotop.png);
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+@media (max-width: 575px){
+		.contact-form .form-control-lg{
+		font-size:1rem;
+	}
+}
+
+
+
+
+
+
 
 /*html {
   font-size: 14px;
