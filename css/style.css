@@ -49,6 +49,10 @@ ul {
 
 /*导览列选单文字*/
 
+.header-logo{
+    padding: 30px 0;
+}
+
 #navbarSupportedContent a.nav-link{
     padding: 0 30px;
     font-size: 18px
@@ -56,7 +60,7 @@ ul {
 
 #navbarSupportedContent a:hover {color: #009A86;}
 
-/*购物车图标*/
+/*导览咧搜寻与购物车*/
 
 .header-bottom-right-inner{
     padding-top: 55px;
@@ -130,4 +134,113 @@ ul {
 
 .cart-list {
     display: none;
+}
+
+/*服務區塊*/
+.service{
+    padding: 60px 0;
+    border-bottom: 1px solid #009A86;
+
+}
+
+.service .single-item{
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px 15px 60px;
+}
+
+
+
+.service .single-item .fa-4{
+    font-size: 50px;
+    color: #009A86;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+}
+/*特色商品*/
+.section-title {
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.section-title h4 {
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+    color: #262b32;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-title h4::after {
+    background: rgba(0, 0, 0, 0) url(../images/icon_title.png) no-repeat scroll center top;
+    bottom: -27px;
+    content: "";
+    height: 23px;
+    left: -75px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    width: 283px;
+}
+
+
+/*¯S¦â°Ó«~*/
+
+.featured .card-title{
+    color: #404040;
+    font-size: 14px;
+
+}
+
+.rating-icon i{
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.rating-icon i:hover{
+    color:#009A86;
+}
+
+/*推荐商品*/
+.recommend{
+    padding-left: 1%;
+}
+
+@media (min-width: 768px) {
+
+    .recommend .ad{
+        width: 31.5%;
+    }
+    .recommend .ad img{
+        width: 100%;
+    }
+}
+
+.recommend .space {
+    float: left;
+    padding: 1%;
+}
+
+/*商品分类*/
+
+.category-area .nav{
+    border-bottom: 1px solid #007bff;
+}
+
+.category-price{
+    color: #009A86;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+@media (min-width: 312px) and (max-width: 767px){
+
+    .recommend .space {
+        padding: 0;
+    }
 }
