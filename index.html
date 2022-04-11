@@ -155,7 +155,10 @@
                 <img src="images/banner-1.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+<!--                <img src="images/banner-2.jpg" class="d-block w-100" alt="...">-->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://player.youku.com/embed/XNTIwNTIyMjM0NA==" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="carousel-item">
                 <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
@@ -179,21 +182,21 @@
                     <div class="single-item border border-info rounded">
                         <i class="fa fa-truck fa-4" aria-hidden="true"></i>
                         <h4>免费配送</h4>
-                        <p>订购产品直达你家</p>
+                        <p class="text-info">订购产品直达你家</p>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="single-item border border-info rounded">
                         <i class="fa fa-refresh fa-4" aria-hidden="true"></i>
                         <h4>免费退货</h4>
-                        <p>30天内保证退货</p>
+                        <p class="text-info">30天内保证退货</p>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="single-item border border-info rounded">
                         <i class="fa fa-clock-o fa-4" aria-hidden="true"></i>
                         <h4>全年无休</h4>
-                        <p>24小时线上管理</p>
+                        <p class="text-info">24小时线上管理</p>
                     </div>
                 </div>
             </div>
@@ -211,7 +214,9 @@
             <div class="row">
                 <div class="card-deck">
                     <div class="card">
-                        <img src="images/features-p1.jpg" class="card-img-top" alt="...">
+                        <a href="#exampleModal" data-toggle="modal">
+                            <img src="images/features-p1.jpg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <h4 class="card-title">EKTORP 扶手椅 <span class="badge badge-pill badge-primary">新品</span></h4>
                             <div class="rating-icon float-left">
@@ -518,6 +523,343 @@
 
 
 
+    <!-- 商品详细内容互动式窗开始 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">商品细节</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="images/features-p1-big.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <div class="product-info">
+                                    <h1>EKTORP 扶手椅</h1>
+                                    <p class="price">$132.00</p>
+                                    <div class="quick-add-to-cart">
+                                        <form method="post" class="cart">
+                                            <input type="number" id="frech-hens" value="3">
+                                            <button class="single_add_to_cart_button" type="submit">加入购物车</button>
+                                        </form>
+                                    </div>
+                                    <div class="quick-desc">
+                                        <p class="h6"><abbr title="attribute" class="initialism">商品尺寸</abbr></p>
+                                        <ul class="list-unstyled">
+                                            <li>宽度: 145 公分</li>
+                                            <li>深度: 72 公分</li>
+                                            <li>高度: 72 公分</li>
+                                            <li>支脚高度: 15 公分</li>
+                                            <li>扶手高度: 63 公分</li>
+                                            <li class="text-truncate"><a href="#"> 请点选「显示存货数量与货架位置」了解如何取货。敦北店与桃园店部分正常供货之商品当日无法取货，请至店内查看所需商品并洽服务人员订购。价格和货况以店内标示及实际库存为准，网站资讯仅供参考。</a></li>
+                                            <li><a href="#" id="tooltip" data-toggle="tooltip" title="国内免费，离岛地区另计!"> 运费说明</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-sharing">
+                                        <div class="widget">
+                                            <h3 class="widget-title-modal">分享这个商品</h3>
+                                            <ul class="social-icons">
+                                                <li>
+                                                    <a target="_blank" title="Facebook" href="#" class="facebook social-icon">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a target="_blank" title="Facebook" href="#" class="twitter social-icon">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                        Tooltip on top
+                    </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 商品详细内容互动式窗结束 -->
+
+    <!-- 新品上市开始 -->
+    <section class="news-letter">
+         <div class="container">
+             <div class="section-title mt-5">
+                 <h4>新品型号</h4>
+             </div>
+             <div class="row">
+                 <div class="col-7">
+                     <a href="#">
+                         <h3 class="text-hide online-catalog">最新型录</h3>
+                         <h3 class="sr-only sr-only-focusable">最新型录</h3>
+                     </a>
+                 </div>
+                 <div class="col-5">
+                     <div class="letter-box">
+                         <div class="letter-title">
+                             <h4>订阅电子报</h4>
+                             <i class="fa fa-envelope-o"></i>
+                             <p>想要收到即时最新商品讯息，快来订阅我们的线上型录吧</p>
+                         </div>
+                         <form action="#" method="post" class="search-box">
+                             <input type="text" id="search-letter" name="search-letter">
+                             <button type="button" id="search-letter-btn" class="btn btn-search"><i class="fa fa-paper-plane-o"></i></button>
+                         </form>
+                         <div class="alert alert-success" role="alert" style="display: none">
+                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                             </button>
+                             <h4 class="alert-heading">Well done!</h4>
+                             <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                             <hr>
+                             <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </section>
+    <!-- 新品上市结束 -->
+
+    <!--合作品牌开始-->
+    <section class="brand-area p-5 d-none d-sm-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a href="http://bootexperts.com/">
+                        <img src="images/brand-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://bootexperts.com/">
+                        <img src="images/brand-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://bootexperts.com/">
+                        <img src="images/brand-3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://bootexperts.com/">
+                        <img src="images/brand-4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://bootexperts.com/">
+                        <img src="images/brand-5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://bootexperts.com/">
+                        <img src="images/brand-6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--合作品牌结束-->
+
+    <!--底部区域开始-->
+    <footer class="footer-area">
+        <!--Footer Top Area Start-->
+        <div class="footer-top section-padding2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="footer-top-menu">
+                            <h3 class="footer-widget-title">分类</h3>
+                            <ul class="toggle-footer">
+                                <li>
+                                    <a href="shop.html">卧室</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">客厅</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">灯光</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">家饰</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="footer-top-menu">
+                            <h3 class="footer-widget-title">讯息</h3>
+                            <ul class="toggle-footer">
+                                <li>
+                                    <a href="shop.html">特价</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">新产品</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">最畅销</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">我们的商店</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">联系我们</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="footer-top-menu">
+                            <h3 class="footer-widget-title">我的账户</h3>
+                            <ul class="toggle-footer">
+                                <li>
+                                    <a href="shop.html">我的订单</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">我的信用卡</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">我的地址</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">我的个人信息</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 hidden-sm">
+                        <div class="footer-top-menu">
+                            <h3 class="footer-widget-title">EXTRAS</h3>
+                            <ul class="toggle-footer">
+                                <li>
+                                    <a href="shop.html">订单与退货</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">关键字搜索</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">进阶搜索</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">关联企业</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">线上团购</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Middle Area Start-->
+        <div class="footer-middle section-padding2">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-border-right col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                        <div class="footer-middle-content">
+                            <a href="index.html">
+                                <img src="images/logo-footer.png" alt="">
+                            </a>
+                            <p>
+                                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum。典型的非洲裔美國人;在iis qui facit中，我們使用了legentis。
+                            </p>
+                            <div class="social-icon">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="contact-area">
+                            <h3 class="footer-widget-title">联系我们</h3>
+                            <div class="footer-info contact">
+                                <ul class="toggle-footer">
+                                    <li>
+                                        <i class="fa fa-map-marker"></i>
+                                        100台北市中正区重庆南路一段122号
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-phone"></i>
+                                        <p>
+                                            电话：866-540-3229
+                                            <br>
+                                            传真：866-540-3229
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope-o"></i>
+                                        电子邮件：admin@know-how.com.tw
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-globe"></i>
+                                        网站：www.know-how.com.tw
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 hidden-sm">
+                        <div class="time-area">
+                            <h3 class="footer-widget-title">营业时间</h3>
+                            <ul class="toggle-footer">
+                                <li>周一至周五：9：00-22：00</li>
+                                <li>周六：10：00 至 24:00</li>
+                                <li>周日：12：00 至 24:00</li>
+                            </ul>
+                            <div class="paypal">
+                                <img src="images/paypal.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--底部区域结束-->
+
+
+
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -527,7 +869,13 @@
 <script src="js/main.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-
+        $("#tooltip").tooltip()
+       $('#search-letter-btn').click(function () {
+            if ($('#search-letter').val().length===0){
+                $(".alert").fadeIn();
+            }
+           setTimeout(function() {$(".alert").fadeOut();}, 3000);
+        })
     })
 </script>
 </body>
